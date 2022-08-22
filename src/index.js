@@ -18,4 +18,4 @@ class MyArray {
     }
 }
 
-const MyArray = new MyArray();
+const MyArray = new MyArray(
