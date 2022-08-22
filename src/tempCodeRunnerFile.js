@@ -1,8 +1,3 @@
-const array = ["javi", "dani", "pollo"];
-array.push("ana");
-
-console.log(array[3]);
-
 class MyArray {
     constructor() {
         this.length = 0;
@@ -22,8 +17,14 @@ const yArray = new MyArray();
 
 yArray.push("javi");
 yArray.push("juli");
+console.log(yArray.length);
 yArray.push("jose");
 yArray.push("mina");
 
 console.log(yArray.get(0));
+console.log(yArray.length);
+
+
+yArray.pop
+
 console.log(yArray.length);

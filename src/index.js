@@ -16,14 +16,23 @@ class MyArray {
         this.length++;
         return this.data
     }
+
+    pop() { 
+        const lastItem = this.data[this.length - 1];
+        delete this.data[this.length -1];
+        this.length--;
+        return lastItem;
+    }
+    delete() {
+        
+    }
 }
 
 const yArray = new MyArray();
 
-yArray.push("javi");
-yArray.push("juli");
-yArray.push("jose");
-yArray.push("mina");
-
 console.log(yArray.get(0));
+console.log(yArray.length);
+
+
+
 console.log(yArray.length);
