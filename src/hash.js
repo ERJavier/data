@@ -30,7 +30,9 @@ class HashTable {
                 }
             }
         return undefined;
-        }
     }
+
+}
+
 
 const myHashTable = new HashTable(50);
