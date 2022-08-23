@@ -9,6 +9,17 @@ class HashTable {
         }
         return hash;
     }
+    set(key, value){
+        const address = this.hashMethod(key);
+        
+        if(!this.data[address]) {
+            this.data[address] = []
+        }
+
+        this.data[address].push([key, value])
+        return this.data;
+    
+    }
 }
 
 const myHashTable = new HashTable(50);
