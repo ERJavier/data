@@ -82,4 +82,3 @@ class MySinglyLinkedList {
 }
 
 let myLinkedList = new MySinglyLinkedList(1);
-
