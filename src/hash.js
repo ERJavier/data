@@ -9,6 +9,9 @@ class HashTable {
         }
         return hash;
     }
+    set(key, value){
+        
+    }
 }
 
 const myHashTable = new HashTable(50);
